@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+    
+      <TextView
+        android:id="@+id/TV1"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/textview"
+        android:gravity="center"
+        android:text="@string/CEA"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+  		android:textColor="@android:color/holo_orange_dark"
+        android:textStyle="bold"
+        android:typeface="normal" />
+      
+        <TextView
+        android:id="@+id/tv_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    	android:layout_gravity="right"
+    	android:background="@drawable/logout"
+        android:textColor="#99FF0000"
+        android:text="LOGOUT"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/Btn_main_1"
+        android:layout_height="150dp"
+      	android:background="@drawable/mainclick"
+        android:text="Study"
+        android:textColor="#FF0000FF"
+        android:drawableTop="@drawable/jjj"
+        android:textSize="25sp"
+      	tools:ignore="HardcodedText"
+     	android:layout_gravity="center"
+        android:layout_width="150dp"
+        
+         />
+        
+   <Button
+                android:id="@+id/Btn_main_2"
+                 android:layout_width="150dp"
+                android:layout_height="150dp"
+             	android:drawableTop="@drawable/exam"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/mainclick"
+                android:layout_gravity="center"
+                android:text="Exam Time"
+                android:textColor="#FF0000FF"
+                android:textSize="25sp"
+                tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/Btn_main_3"       
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text="Results"
+        android:background="@drawable/mainclick"
+        android:drawableTop="@drawable/index"
+        android:textColor="#FF0000FF"
+        android:textSize="25sp"
+        tools:ignore="HardcodedText"
+     	android:layout_gravity="center"
+        android:layout_marginTop="15dp" />
+   
+    <Button
+        android:id="@+id/Btn_main_4"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:background="@drawable/mainclick"
+        android:drawableTop="@drawable/help1"
+        android:text="Help"
+        android:textColor="#FF0000FF"
+        android:textSize="25sp"
+        android:layout_marginTop="15dp"
+        tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>

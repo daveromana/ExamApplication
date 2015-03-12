@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg5"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/image_TV1"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:background="@android:color/black"
+        android:gravity="center"
+        android:text="Image"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+  		android:textColor="@android:color/holo_orange_dark"
+        android:textStyle="bold"
+        android:typeface="normal" />
+    <ScrollView
+ 	       android:id="@+id/scrollView1"
+ 	       android:layout_width="fill_parent"
+ 	       android:layout_height="wrap_content" >
+
+<TableLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+             
+	        <ImageView
+   	     	android:id="@+id/imageview"
+   	     	android:layout_gravity="center"
+   	    	android:layout_width="wrap_content"
+   		    android:layout_height="wrap_content"
+   		    android:background="@drawable/img"
+   		    android:src="@drawable/ic_launcher" />
+	     
+     <TableRow
+             android:id="@+id/tableRow2"
+             android:layout_width="fill_parent"
+              android:paddingTop="10dp"
+             android:layout_height="wrap_content" >
+             
+ 	   <Button
+ 	       android:id="@+id/img_button1"
+ 	       android:enabled="false"
+ 	       android:layout_width="150dp"
+ 	       android:layout_height="wrap_content"
+ 	       android:background="@drawable/mainclick"
+ 	       android:textColor="@android:color/holo_orange_dark"
+ 	       android:layout_marginLeft="10dp"
+ 	       android:text="Previous" />
+ 	   
+ 	     <Button
+ 	         android:id="@+id/img_button2"
+ 	         android:layout_width="150dp"
+ 	         android:layout_height="wrap_content"
+ 	         android:text="Next"
+ 	         android:background="@drawable/mainclick"
+ 	         android:textColor="@android:color/holo_orange_dark"
+ 	         android:layout_marginLeft="10dp"
+ 	         android:visibility="visible" />
+ 	     
+ 	     </TableRow>
+ 	     
+    </TableLayout>
+
+</ScrollView>
+</LinearLayout>

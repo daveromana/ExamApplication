@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLayoutListFiles"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg4"
+    android:orientation="vertical" >
+    
+     <TextView
+        android:id="@+id/TVchapterlist"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:background="@android:color/black"
+        android:gravity="center"
+        android:textColor="@android:color/holo_orange_dark"
+        android:text="Chapter List"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold"
+        android:typeface="normal" />
+     
+     <LinearLayout
+        android:id="@+id/rootContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TVchapterlist"
+        android:orientation="vertical" >
+       </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Competitive  Exam  Application</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="CEA">Competitive Exam Application</string>
+    <string name="btn1_Study">Study</string>
+    <string name="btn2_Exam">Give Exam</string>
+    <string name="btn3_Result">Result</string>
+    <string name="btn4_Help">Help</string>
+    <string name="pwd">Password:</string>
+    <string name="username">Username:</string>
+    <string name="signin">Sign In</string>
+    <string name="signup">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="regis">Registeration</string>
+    <string name="fname">FirstName</string>
+    <string name="lname">LastName</string>
+    <string name="email">E-mail ID</string>
+    <string name="submit">Submit</string>
+    <string name="btn1_maths">Maths</string>
+    <string name="btn2_lr">Logical Reasoning</string>
+    <string name="btn3_eng">English</string>
+    <string name="btn4_gk">General knowledge</string>
+    <string name="studymth">Mathematics</string>
+    <string name="studymth1">In Mathematics, there are in all 22 chapters to be studied.</string>
+    <string name="studymth2">Mathematics helps you to cover basic maths and also varios equations and formulas which are necessary are to be studied.</string>
+	  <string name="studylr">Logical Reasoning</string>
+    <string name="studylr1">In Logical Reasoning, there are in all 18 chapters to be studied.</string>
+	<string name="studylr2">Logical Reasoning Questions, checks your ability to solve the questions Logically. It checks your presence of mind, concentration power and also how fast you solve the question correctly.</string>
+	<string name="exam">Exam</string>
+	<string name="mock">Mock Exam</string>
+	<string name="next">Next</string>
+	<string name="start">Start</string>
+	<string name="op1">Option1</string>
+	<string name="op2">Option2</string>
+	<string name="op3">Option3</string>
+	<string name="op4">Option4</string>
+	<string name="que">Question</string>
+	<string name="queno">QuestionNo.</string>
+	<string name="subject">Subject Exam</string>
+	<string name="result">Result</string>
+
+</resources>

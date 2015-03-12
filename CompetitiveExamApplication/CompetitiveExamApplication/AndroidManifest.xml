@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.competitiveexamapplication"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="9" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ceaicon"
+        android:label="@string/app_name"
+         android:debuggable="true"
+        android:theme="@style/AppTheme" android:hardwareAccelerated="true">
+        <activity
+            android:name="com.competitiveexamapplication.Imagepage1"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.competitiveexamapplication.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.competitiveexamapplication.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.competitiveexamapplication.Study01"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.competitiveexamapplication.STUDY01" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.competitiveexamapplication.Math01"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.competitiveexamapplication.MATH01" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name="com.competitiveexamapplication.Math_menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.competitiveexamapplication.MATH_MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.competitiveexamapplication.Lr01"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.competitiveexamapplication.LR01" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.competitiveexamapplication.Lr_menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.competitiveexamapplication.LR_MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.competitiveexamapplication.Login"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.competitiveexamapplication.LOGIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.competitiveexamapplication.Registartion"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.competitiveexamapplication.REGISTARTION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.competitiveexamapplication.Exam"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.competitiveexamapplication.EXAM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.competitiveexamapplication.Examxml"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.competitiveexamapplication.EXAMXML" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.competitiveexamapplication.Exam1"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.competitiveexamapplication.EXAM1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.competitiveexamapplication.FileList"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.competitiveexamapplication.FILELIST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name="com.competitiveexamapplication.Subjectlist"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.competitiveexamapplication.SUBJECTLIST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+          <activity
+            android:name="com.competitiveexamapplication.Examxml2"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.competitiveexamapplication.EXAMXML2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+          <activity
+            android:name="com.competitiveexamapplication.Result"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.competitiveexamapplication.RESULT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+          <activity
+            android:name="com.competitiveexamapplication.Chapter"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.competitiveexamapplication.CHAPTER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+           <activity
+            android:name="com.competitiveexamapplication.Study"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.competitiveexamapplication.STUDY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.competitiveexamapplication.Image"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.competitiveexamapplication.IMAGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.competitiveexamapplication.SimpleXYPlotActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.competitiveexamapplication.SIMPLEXYPLOTACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.competitiveexamapplication.Result1"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.competitiveexamapplication.RESULT1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+    </application>
+
+</manifest>

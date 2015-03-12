@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLayoutListFiles"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Subjectlist" >
+
+         <TextView
+        android:id="@+id/TVExamXML2_1"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:background="@android:color/holo_blue_bright"
+        android:gravity="center"
+        android:text="@string/subject"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold"
+        android:typeface="normal" />
+  
+    <LinearLayout
+        android:id="@+id/rootContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TVExamXML2_1"
+    
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</RelativeLayout>

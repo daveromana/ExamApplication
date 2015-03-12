@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menupic1"
+    android:orientation="vertical" >
+    
+ <TextView
+        android:id="@+id/TV1"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/textview"
+        android:gravity="center"
+        android:textColor="@android:color/holo_orange_dark"
+        android:text="@string/exam"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold"
+        android:typeface="normal" />
+     <TextView
+        android:id="@+id/tv_logout"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@drawable/logout"
+        android:textColor="#99FF0000"
+        android:text="LOGOUT"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+  <ScrollView
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+       >
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+
+	    <Button
+	        android:id="@+id/btn_mock_exam"
+	        android:layout_width="250dp"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:layout_marginTop="35dp"
+	        android:background="@drawable/mainclick"
+	        android:height="@android:dimen/notification_large_icon_height"
+	        android:textColor="#FF0000FF"
+	        android:text="@string/mock" />
+		
+	    
+	     <Button
+	        android:id="@+id/btn_sub_exam"
+	        android:layout_width="250dp"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:layout_marginTop="35dp"
+	        android:background="@drawable/mainclick"
+	        android:height="@android:dimen/notification_large_icon_height"
+	        android:textColor="#FF0000FF"
+	        android:text="@string/subject" />
+	    
+	</LinearLayout>
+
+	</ScrollView>
+    
+</LinearLayout>

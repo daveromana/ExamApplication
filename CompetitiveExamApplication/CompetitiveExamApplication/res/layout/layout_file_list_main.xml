@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLayoutListFiles"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg4"
+    tools:context=".FileListMainActivity" >
+
+         <TextView
+        android:id="@+id/TVExamXML2_1"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+       android:background="@drawable/textview"
+        android:gravity="center"
+        android:textColor="@android:color/holo_orange_dark"
+        android:text="@string/mock"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold"
+        android:typeface="normal" />
+  
+    <LinearLayout
+        android:id="@+id/rootContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TVExamXML2_1"
+    
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</RelativeLayout>
